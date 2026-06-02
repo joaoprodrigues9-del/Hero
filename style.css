@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fundo{
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+header{
+    height: 150px;
+    background-color: rgb(4, 0, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 32px;
+}
+.logo p{
+    color: #fff;
+}
+.texto-destaque{
+    color: red;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    gap: 60px;
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    text-transfor: uppercase;
+}
+body{
+    font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
